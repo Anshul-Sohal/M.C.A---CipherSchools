@@ -3,12 +3,16 @@ using namespace std;
 
 class student{
     private:
-    //Data Memebers
+    //Data Members
     string name;
     int age;
     int roll_number;
     public:
-    //Constructor
+    //Default Constructor
+    student(){
+        cout<<"Default Constructor was called";
+    }
+    //Parameterized Constructor
     student(string name,int age,int roll_number){
         this->name = name;
         this->age = age;
