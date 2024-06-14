@@ -18,6 +18,9 @@ class student{
         this->age = age;
         this->roll_number = roll_number;
     }
+    ~student(){
+        cout<<"\nDestructor called\n";
+    }
     //Getter and Setter
     void setName(string name){
         this->name = name;
