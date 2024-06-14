@@ -1,0 +1,2 @@
+Polymorphism means more than one form
+It means same Entity (Function or Operator) behaves differently in differnt scenarios.

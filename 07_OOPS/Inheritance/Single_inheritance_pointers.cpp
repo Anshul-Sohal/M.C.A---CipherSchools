@@ -19,16 +19,21 @@ class ChildClass : public ParentClass{
     }
     void print(){
         cout<<"This is the Child Class\n";
-        ParentClass::print();
+        // ParentClass::print();
     }
     ~ChildClass(){}
 };
 
 int main() {
-    ChildClass obj;
+    ChildClass ChildObj;
     cout<<endl;
-    obj.print();
+    ChildObj.print();
     cout<<endl;
-    obj.ParentClass::print();
+    ParentClass* Baseptr = &ChildObj;
+    Baseptr->print();
+    cout<<endl;
+    ChildClass* Childptr = &ChildObj;
+    Childptr->print();
+    cout<<endl;
     return 0;
 }

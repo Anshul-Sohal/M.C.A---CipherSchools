@@ -6,6 +6,7 @@ class ParentClass{
     ParentClass(){
         cout<<"Parent Constructor Called\n";
     }
+    ~ParentClass(){}
 };
 
 class ChildClass : ParentClass{
@@ -13,6 +14,7 @@ class ChildClass : ParentClass{
     ChildClass(){
         cout<<"Child Constructor Called\n";
     }
+    ~ChildClass(){}
 };
 
 class ChildsChildClass : ChildClass{
@@ -20,6 +22,7 @@ class ChildsChildClass : ChildClass{
     ChildsChildClass(){
         cout<<"ChildsChild Constructor Called\n";
     }
+    ~ChildsChildClass(){}
 };
 
 int main() {
