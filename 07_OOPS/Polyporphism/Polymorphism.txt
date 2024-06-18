@@ -1,2 +1,10 @@
 Polymorphism means more than one form
 It means same Entity (Function or Operator) behaves differently in differnt scenarios.
+
+Types of Polymorphism:-
+1. Compile time Polymorphism.
+2. Run time Polymorphism.
+
+Compile time Polymorphism :- 
+
+Run time Polymorphism :-

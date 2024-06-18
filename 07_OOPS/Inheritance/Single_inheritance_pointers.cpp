@@ -27,10 +27,10 @@ class ChildClass : public ParentClass{
 int main() {
     ChildClass ChildObj;
     cout<<endl;
-    ChildObj.print();
+    // ChildObj.print();
     cout<<endl;
-    ParentClass* Baseptr = &ChildObj;
-    Baseptr->print();
+    ParentClass* ParentPtr = &ChildObj;
+    ParentPtr->print();
     cout<<endl;
     ChildClass* Childptr = &ChildObj;
     Childptr->print();
