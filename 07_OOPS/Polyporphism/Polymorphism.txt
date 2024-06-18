@@ -7,4 +7,4 @@ Types of Polymorphism:-
 
 Compile time Polymorphism :- 
 
-Run time Polymorphism :-
+Run time Polymorphism/Late Binding :-
