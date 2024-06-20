@@ -1,0 +1,7 @@
+Swap alternate elemets of array "./Swap altermate elemets in array.cpp"
+Pair sum "./Pair Sum.cpp"
+Triplet sum  "./Triplet Sum.cpp"
+Sort zeros and ones "./Sort 0 and 1 .cpp"
+Find unique elemets in array "./Unique elements.cpp"
+Find duplicate elemets in array "./duplicated elements.cpp"
+Find occurance unique of elemets in array

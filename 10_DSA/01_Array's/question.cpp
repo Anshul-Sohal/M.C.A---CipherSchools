@@ -3,8 +3,7 @@ using namespace std;
 
 float sumArray(int arr[],int size){
     float sum=0;
-    for (int i = 0; i < 5; i++)
-    {
+    for (int i = 0; i < 5; i++){
         sum+=arr[i];
     }
     return sum;
@@ -12,10 +11,8 @@ float sumArray(int arr[],int size){
 
 int maxValueArray(int arr[], int size){
     int max = arr[0];
-    for (int i = 0; i < size; i++)
-    {
-        if (max<arr[i])
-        {
+    for (int i = 0; i < size; i++){
+        if (max<arr[i]){
             max = arr[i];
         }
     }
@@ -23,10 +20,8 @@ int maxValueArray(int arr[], int size){
 }   
 int minValueArray(int arr[], int size){
     int min = arr[0];
-    for (int i = 0; i < size; i++)
-    {
-        if (min>arr[i])
-        {
+    for (int i = 0; i < size; i++){
+        if (min>arr[i]){
             min = arr[i];
         }
     }
@@ -36,8 +31,7 @@ int minValueArray(int arr[], int size){
 int main() {
     int arr[5] = {1,2,3,4,5};
     cout<<"Enter 5 numbers = ";
-    for (int i = 0; i < 5; i++)
-    {
+    for (int i = 0; i < 5; i++){
         cin>>arr[i];
     }
     cout<<"The sum of array is "<<sumArray(arr,5)<<endl;

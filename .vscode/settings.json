@@ -2,6 +2,23 @@
     "files.associations": {
         "string": "cpp",
         "iostream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "streambuf": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "concepts": "cpp",
+        "deque": "cpp",
+        "vector": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
     }
 }

@@ -1,7 +1,0 @@
-Swap alternate elemets of array
-Pair sum
-Triplet sum
-Sort zeros and ones
-Find unique elemets in array
-Find duplicate elemets in array
-Find occurance unique of elemets in array
