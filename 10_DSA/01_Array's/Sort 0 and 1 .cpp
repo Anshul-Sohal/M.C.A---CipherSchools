@@ -5,10 +5,10 @@ using namespace std;
 void sortZeroOne(int arr[],int size){
     int i = 0 , j = size-1;
     while(i<j){
-        while(arr[i]==0 && i<j){
+        while(arr[i]==0){
             i++;
         }
-        while(arr[j]==1 && i<j){
+        while(arr[j]==1){
             j--;
         }
         if(i<j){
