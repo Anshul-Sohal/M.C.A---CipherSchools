@@ -16,7 +16,7 @@ int secondLargest(int arr[],int size){
 } 
 
 int main() {
-    int arr[11] = {1,2,3,4,5,6,7,8,10,10,10};
-    cout<<secondLargest(arr,11);
+    int arr[6] = {12,35,1,10,34,1};
+    cout<<secondLargest(arr,6);
     return 0;
 }
