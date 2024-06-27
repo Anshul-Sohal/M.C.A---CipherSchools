@@ -2,7 +2,7 @@
 using namespace std;
 
 char maxOccuringChar(char ch){
-    bool seen[] = {false}
+    bool seen[] = {false};
 }
 
 int main() {
