@@ -35,8 +35,25 @@ void insert_data_at_beg(node<T>*&head,T data){
     head = temp;
 }
 template<typename T>
+void insert_anywhere(node<T>*&head,T data,int position){
+    if(position == 0) insert_data_at_beg(head,data);
+    
+}
+template<typename T>
 void delete_element(node<T>*&head,T position){
-
+    node<T>*ptr = head;
+    if(position == 0){
+        head = ptr->next;
+        delete ptr;
+        return;
+    }
+    for(int i = 0;ptr!=NULL && i<position-1;++i){
+        ptr = ptr->next;
+    }
+    if(ptr == NULL || ptr->next == NULL) return;
+    node<T>*next = ptr->next->next;
+    delete ptr->next;
+    ptr->next = next;
 }
 template<typename T>
 bool does_element_exists(node<T>*&head,T key){
@@ -46,6 +63,19 @@ bool does_element_exists(node<T>*&head,T key){
         ptr = ptr->next;
     }
     return false;
+}
+template<typename T>
+void reverse_linked_list(node<T>*&head){
+    node<T>*prev = NULL;
+    node<T>*curr = head;
+    node<T>*next = NULL;
+    while (curr!=NULL){
+        next = curr->next;
+        curr->next =prev;
+        prev = curr;
+        curr = next;
+    }
+    head = prev;
 }
 template<typename T>
 void display(node<T>*head){
@@ -68,5 +98,11 @@ int main() {
     insert_data_at_beg(head,0);
     display(head);
     does_element_exists(head,1)?cout<<"True\n":cout<<"False\n";
+    delete_element(head,0);
+    display(head);
+    delete_element(head,2);
+    display(head);
+    reverse_linked_list(head);
+    display(head);
     return 0;
 }

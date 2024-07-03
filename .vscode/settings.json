@@ -52,6 +52,9 @@
         "stacktrace": "cpp",
         "bitset": "cpp",
         "regex": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "charconv": "cpp",
+        "format": "cpp",
+        "ranges": "cpp"
     }
 }
