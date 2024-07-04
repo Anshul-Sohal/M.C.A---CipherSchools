@@ -25,7 +25,7 @@ void insert_data_at_end(node<T>*&head, T data){
 }
 
 template<typename T>
-bool doesLoopExists(node<T*&head){
+bool doesLoopExists(node<T>*&head){
     if(head == NULL) return true;
     node<T>* slow = head;
     node<T>* fats = head;
