@@ -55,6 +55,7 @@
         "sstream": "cpp",
         "charconv": "cpp",
         "format": "cpp",
-        "ranges": "cpp"
+        "ranges": "cpp",
+        "valarray": "cpp"
     }
 }

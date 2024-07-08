@@ -1,0 +1,9 @@
+Complete Binary tree -  
+    A tree with all of its nodes filled. eg-> The leaf nodes must end at the same level and all the nodes must have 2 children.
+
+Proper Strict Binary Tree -
+    If a parent has either has zero or two children is called a Proper Strict Binary tree.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+->Max number of nodes at level L  = 2^L;
