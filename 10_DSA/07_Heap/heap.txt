@@ -1,0 +1,29 @@
+Heap is a tree data structure where the tree must be a Complete Binary Tree and contain some Heap order Property
+1. Max Heap
+2. Min Heap
+
+Max Heap :- The root has the highest value from the child.
+Min Heap :- The root has the Lowest value from the child.
+
+In order to find Left and Right Child we can Find them using:-
+
+for 1 based indexing -
+    Left Child = 2*i.
+    Right Child = 2*i + 1.
+
+for 0 based indexing - 
+    Left Child = 2*i + 1;
+    Right Child = 2*i + 2;
+
+For finding the Parent of any Child  = i/2.
+
+For Insertion in a heap :-
+    we insert at end.
+    check wether its still holds the heap order Property.
+
+For Deletion in a heap :-
+    replace last with root.
+    Remove last.
+    place root at its correct position.
+
+In heap n/2 + 1 to n are leaf nodes (n being the size of the heap);
